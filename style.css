@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --fonte-destaque: "Lato", sans-serif;
+    --fonte-texto: "Arima", system-ui;
+    --cor1: #cdb4dbff;
+    --cor2:#ffffffff;
+    --cor3: #f3e8faff;
+    --cor4: #e6d0f5ff;
+    --cor5: #9b45d6ff;
+    --cor6: #6812a3ff;
+    --cor7: #1a0429ff;
+    --cor8: #0d0214ff;
+    --cor9: #000000ff;
+}
+body{
+    background-color: var(--cor5);
+    font-family: var(--fonte-texto);
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: var(--cor6);
+    padding: 1em;
+}
+
+footer p{
+    font-size: 1.2rem;
+    color: var(--cor9);
+}
+footer a{
+    text-decoration: none;
+    color: var(--cor4);
+}
